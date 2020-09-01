@@ -170,7 +170,10 @@ Command: nano hosts
 
 - SSH from Ansible container to ELK machine to verify the connection before running playbook.
 - After the ELK container is installed, we SSHed to the container and double check that elk-docker container is running.
-- [elk docker](/Users/si/Elk-Stack-Project/Images/elkdocker.png)
+
+
+![elkdocker](Images/elkdocker.png)
+
 
 We created a new VM, which used to run your ELK stack. In order to use Ansible to configure this machine, we added it to the list of machines Ansible can discover and connect to. We specified python3 with ansible_python_interpreter=/usr/bin/python3
 
@@ -192,7 +195,7 @@ Which URL do you navigate to in order to check that the ELK server is running?
 - http://104.43.139.143:5601/app/kibana#/home
 
 
-![Kibana Home](Images/kibanahome.png)
+![kibana](Images/kibana.png)
 
 
 
